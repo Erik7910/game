@@ -60,8 +60,8 @@ function updateScore() {
 function restartGame(){
     playerScrPara.textContent = `Player: 0`;
     cpuScorePara.textContent = `Computer: 0`;
-    choiceImgAI.textContent = <i class="fa-solid fa-question"></i>;
-    choiceImgPlayer.textContent = <i class="fa-solid fa-question"></i>;
+    choiceImgAI.textContent = '💤';
+    choiceImgPlayer.textContent = '💤';
     scoreCard.textContent = 'New Game';
 }
 
