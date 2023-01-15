@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    padding: 60px 0px;
+    text-align: center;
+    background: black;
+    font-size: 64px;
+    color: azure;
+    font-weight: bold;
+    width: 100%;
+}
+.cards{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.playerCard, .computerCard{
+    border: 2px black solid;
+    padding: 12px;
+    margin: 32px 32px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+#choiceImgAi,#choiceImgPlayer{
+    font-size: 128px;
+    margin: 0;
+}
+
+#scoreCard{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 32px 0px;
+    color: black;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+}
+button:hover{
+    transition: .5s;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px grey;
+}
+#rockBtn,#paperBtn,#scissorsBtn{
+    padding: 12px;
+    margin: 12px 30px;
+    border-radius: 12px;
+    font-size: 128px;
+    background-color: grey;
+}
+.weapon{
+    text-align: center;
+    margin-top: 64px;
+    font-size: 32px;
+}
+#restartBtn{
+    margin: 32px;
+    color: azure;
+    background-color: black;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 32px;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    padding: 16px 0px;
+    color: azure;
+
+}
