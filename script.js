@@ -54,12 +54,12 @@ function updateScore() {
   }
 
   playerScrPara.textContent = `Player: ${playerWins}`;
-  cpuScorePara.textContent = `Computer: ${computerWins}`;
+  cpuScorePara.textContent = `CPU: ${computerWins}`;
 }
 
 function restartGame(){
     playerScrPara.textContent = 'Player: 0';
-    cpuScorePara.textContent = 'Computer: 0';
+    cpuScorePara.textContent = 'CPU: 0';
     choiceImgAI.textContent = '?';
     choiceImgPlayer.textContent = '?';
     scoreCard.textContent = 'New Game';
