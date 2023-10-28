@@ -30,6 +30,7 @@ body{
 .playerCard, .computerCard{
     border: 2px black solid;
     min-width: fit-content;
+    width: 30vw;
     padding: auto;
     margin: 12px;
     border-radius: 12px;
