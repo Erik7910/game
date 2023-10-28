@@ -40,7 +40,7 @@ function playGame(playerChoice, compChoice){
   }
   else{
     computerWins++;;
-    scoreBoard = 'computer';
+    scoreBoard = 'CPU';
   }
 }
 
@@ -49,7 +49,7 @@ function updateScore() {
     scoreCard.textContent = "It's a tie!";
   } else if (scoreBoard === 'player') {
     scoreCard.textContent = 'You won!';
-  } else if (scoreBoard === 'computer') {
+  } else if (scoreBoard === 'CPU') {
     scoreCard.textContent = 'You lost!';
   }
 
