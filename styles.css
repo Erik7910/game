@@ -7,6 +7,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    min-width: fit-content;
 }
 .header{
     padding: 60px 0px;
@@ -28,7 +29,7 @@ body{
 }
 .playerCard, .computerCard{
     border: 2px black solid;
-    min-width: 25vw;
+    min-width: fit-content;
     padding: auto;
     margin: 12px;
     border-radius: 12px;
@@ -55,8 +56,9 @@ body{
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 90vw;
+    min-width: fit-content;
     height: auto;
+    gap: 16px;
 }
 button:hover{
     transition: .5s;
