@@ -18,6 +18,9 @@ body{
     width: 100%;
 }
 .cards{
+    width: 50vw;
+    height: auto;
+    margin: 16px auto;
     text-align: center;
     display: flex;
     align-items: center;
@@ -25,8 +28,9 @@ body{
 }
 .playerCard, .computerCard{
     border: 2px black solid;
-    padding: 12px;
-    margin: 32px 32px;
+    min-width: 25vw;
+    padding: auto;
+    margin: auto;
     border-radius: 12px;
     text-align: center;
     font-size: 16px;
@@ -50,7 +54,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 64px;
+    margin: auto;
+    width: 90vw;
+    height: auto;
 }
 button:hover{
     transition: .5s;
@@ -60,7 +66,7 @@ button:hover{
 }
 #rockBtn,#paperBtn,#scissorsBtn{
     padding: 12px;
-    margin: 12px 30px;
+    margin: auto;
     border-radius: 12px;
     font-size: 128px;
     background-color: grey;
