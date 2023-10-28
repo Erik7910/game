@@ -30,7 +30,7 @@ body{
     border: 2px black solid;
     min-width: 25vw;
     padding: auto;
-    margin: auto;
+    margin: 12px;
     border-radius: 12px;
     text-align: center;
     font-size: 16px;
