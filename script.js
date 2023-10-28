@@ -58,11 +58,13 @@ function updateScore() {
 }
 
 function restartGame(){
-    playerScrPara.textContent = `Player: 0`;
-    cpuScorePara.textContent = `Computer: 0`;
-    choiceImgAI.textContent = '💤';
-    choiceImgPlayer.textContent = '💤';
+    playerScrPara.textContent = 'Player: 0';
+    cpuScorePara.textContent = 'Computer: 0';
+    choiceImgAI.textContent = '?';
+    choiceImgPlayer.textContent = '?';
     scoreCard.textContent = 'New Game';
+    playerWins = 0;
+    computerWins = 0;
 }
 
 function playerClick(playerChoice){
