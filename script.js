@@ -84,7 +84,7 @@ function updateChoices(playerChoice, compChoice) {
       choiceImgAI.textContent = '✋'
       break
     case 'SCISSORS':
-      choiceImgAI.textContent = '✌'
+      choiceImgAI.textContent = '✌️'
       break
   }
 
@@ -96,7 +96,7 @@ function updateChoices(playerChoice, compChoice) {
       choiceImgPlayer.textContent = '✋'
       break
     case 'SCISSORS':
-      choiceImgPlayer.textContent = '✌'
+      choiceImgPlayer.textContent = '✌️'
       break
   }
 }
